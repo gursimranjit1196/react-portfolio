@@ -16,7 +16,7 @@ export default function WorkExperience() {
 
     return (
         <div id="experience">
-            <Fade bottom duration={1000} distance="20px">
+            <Fade right duration={2000} distance="20px">
             <div className="experience-container" id="workExperience">
                 <div>
                     <h1 className="experience-heading">Experiences</h1>

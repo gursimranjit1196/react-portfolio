@@ -5,7 +5,7 @@ import emoji from "react-easy-emoji";
 
 export default function Achievement() {
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade left duration={2000} distance="20px">
     <div className="main" id="achievements">
       <div className="achievement-main-div">
         <div className="achievement-header">

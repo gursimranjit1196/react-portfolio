@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { Fade } from "react-reveal";
+import Zoom from "react-reveal/Zoom";
 import emoji from "react-easy-emoji";
 
 export default function Contact() {
@@ -9,7 +9,7 @@ export default function Contact() {
     let [ email ] = useState("gursimranjit1196@gmail.com")
 
     return (
-        <Fade bottom duration={1000} distance="20px">
+        <Zoom bottom duration={1000} distance="20px">
         <div className="main contact-margin-top" id="contact">
             <div className="contact-div-main">
                 <div className="contact-header">
@@ -30,6 +30,6 @@ export default function Contact() {
                 </div>
             </div>
         </div>
-        </Fade>
+        </Zoom>
     )
 }
