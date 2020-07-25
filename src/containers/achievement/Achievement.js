@@ -22,6 +22,16 @@ export default function Achievement() {
               <p className="card-subtitle">{ "Completed Solution Architect Associate Certifcation from AWS" }</p>
             </div>
           </div>
+
+          <div className="certificate-card">
+            <div className="certificate-image-div">
+              <img src = { require("../../assets/images/AWS-Developer-Associate-badge.png") } alt="AWS" className="card-image"></img>
+            </div>
+            <div className="certificate-detail-div">
+              <h5 className="card-title">{ "AWS Developer Associate" }</h5>
+              <p className="card-subtitle">{ "Completed Developer Associate Certifcation from AWS" }</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

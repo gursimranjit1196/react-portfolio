@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 
 export default function Greeting() {
   let [ shortDescription ] = useState(emoji("A passionate Software Developer 🚀 having an experience of building Scalable Web Applications (with Ruby / Rails / JavaScript / Angular / Reactjs / Nodejs / AWS) including Project Analysis, Designing Architecture, End Testing and Deployment"))
-  let [ resumeLink ] = useState("https://drive.google.com/file/d/11i3nOiNg8GTWQOBvg9b45AjcWYs-j2EC/view?usp=sharing")
+  let [ resumeLink ] = useState("https://drive.google.com/file/d/1b9Z1kGA-NDavCQwwRz1qj-0v5K-r9Z4R/view?usp=sharing")
 
   return (
     <Fade bottom duration={1000} distance="40px">
@@ -20,7 +20,7 @@ export default function Greeting() {
               { "Gursimranjit Singh Channa" }
             </h1>
             <h1 className="greeting-subtext">
-              { "(AWS SAA | Software Engineer)" }
+              { "(Software Engineer | AWS SAA | AWS DVA)" }
               {" "}
             </h1>
             <p className="greeting-text-p subTitle">{ shortDescription }</p>
