@@ -9,8 +9,14 @@ export default function WorkExperience() {
         {
           role: "Software Engineer",  
           company: "Metadesign Solution Pvt Ltd.",
-          date: "April 2017 – Present",
+          date: "April 2017 – Oct 2020",
           desc: "Working as a Software Engineer with thorough hands-on experience in all levels of development in both Backend(Ruby On Rails, Nodejs) and Frontend (Angular 6+, Reactjs) technologies."
+        },
+        {
+          role: "Software Engineer",  
+          company: "Gartner",
+          date: "Oct 2020 – Present",
+          desc: "Building Web application as Recommendation Engine for Business Unit, handled Backend and AWS Architecture."
         }
       ])
 

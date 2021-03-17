@@ -23,7 +23,7 @@ export default function Skills() {
         <Fade right duration={1000}>
         <div className="skills-text-div">
           <h1 className="skills-heading">{ "What I do" } </h1>
-          <p className="subTitle skills-text-subtitle">{ "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK" }</p>
+          <p className="subTitle skills-text-subtitle">{ "CRAZY FULL STACK ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK" }</p>
           <SoftwareSkill />
           <div>
             {

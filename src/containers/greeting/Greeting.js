@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 
 export default function Greeting() {
-  let [ shortDescription ] = useState(emoji("A passionate Software Developer 🚀 having an experience of building Scalable Web Applications (with Ruby / Rails / JavaScript / Angular / Reactjs / Nodejs / AWS) including Project Analysis, Designing Architecture, End Testing and Deployment"))
+  let [ shortDescription ] = useState(emoji("Passionate Software Engineer 🚀 having an experience of building Scalable Web Applications (with Ruby / Rails / JavaScript / Angular / Reactjs / Nodejs / AWS) including Project Analysis, Designing Architecture, End Testing and Deployment"))
   let [ resumeLink ] = useState("https://drive.google.com/file/d/1b9Z1kGA-NDavCQwwRz1qj-0v5K-r9Z4R/view?usp=sharing")
 
   return (
@@ -20,8 +20,10 @@ export default function Greeting() {
               { "Gursimranjit Singh Channa" }
             </h1>
             <h1 className="greeting-subtext">
-              { "(Software Engineer | AWS SAA | AWS DVA)" }
-              {" "}
+              { "Software Engineer @ Gartner" }
+            </h1>
+            <h1 className="greeting-subsubtext">
+              { "(AWS SAA | AWS DA)" }
             </h1>
             <p className="greeting-text-p subTitle">{ shortDescription }</p>
             <SocialMedia />

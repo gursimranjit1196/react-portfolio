@@ -4,6 +4,14 @@ import "./SoftwareSkill.css";
 export default function SoftwareSkill() {
   let [ skillsSection ] = useState([
     {
+      skillName: "ruby",
+      fontAwesomeClassname: "far fa-gem"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -18,10 +26,6 @@ export default function SoftwareSkill() {
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "docker",
