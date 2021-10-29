@@ -15,8 +15,14 @@ export default function WorkExperience() {
         {
           role: "Software Engineer",  
           company: "Gartner",
-          date: "Oct 2020 – Present",
+          date: "Oct 2020 – Oct 2021",
           desc: "Building Web application as Recommendation Engine for Business Unit, handled Backend and AWS Architecture."
+        },
+        {
+          role: "SDE 2",  
+          company: "TATA 1mg",
+          date: "Oct 2021 – Present",
+          desc: ""
         }
       ])
 

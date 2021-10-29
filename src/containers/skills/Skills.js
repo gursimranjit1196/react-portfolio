@@ -7,9 +7,11 @@ import {Fade} from "react-reveal";
 export default function Skills() {
   let [ skills ] = useState([
     emoji("⚡ Develop Scalable Applications"),
-    emoji("⚡ Payment Gateways integrations (CCAvenue, Stripe, Payfast, etc)"),
-    emoji("⚡ Full-Duplex Communication using WebSockets"),
-    emoji("⚡ Google Chrome Extensions")
+    emoji("⚡ Payment Gateways Integrations (CCAvenue, Stripe, Payfast, etc)"),
+    emoji("⚡ Full-Duplex Communication WebApps using WebSockets"),
+    emoji("⚡ Google Chrome Extensions"),
+    emoji("⚡ Recommendations/Personalized Engines"),
+    emoji("⚡ Owning responsibilities of driving Modules")
   ])
 
   return (
@@ -23,7 +25,7 @@ export default function Skills() {
         <Fade right duration={1000}>
         <div className="skills-text-div">
           <h1 className="skills-heading">{ "What I do" } </h1>
-          <p className="subTitle skills-text-subtitle">{ "CRAZY FULL STACK ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK" }</p>
+          <p className="subTitle skills-text-subtitle">{ "CRAZY FULL STACK ENGINEER WHO WANTS TO EXPLORE DIFFERENT TECH STACKS" }</p>
           <SoftwareSkill />
           <div>
             {
